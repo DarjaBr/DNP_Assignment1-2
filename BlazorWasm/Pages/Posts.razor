@@ -1,0 +1,65 @@
+@page "/Posts"
+
+@using BlazorWasm.Services
+@using global::Shared.Models
+@using System.Net
+@inject IPostService postService
+
+    <h3>Posts</h3>
+
+    <div>
+        <button @onclick="LoadPosts">Load</button>
+    </div>
+
+    @if (posts == null)
+    {
+    }
+    else if (!posts.Any())
+    {
+        <p>No Posts to display</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Author</th>
+                <th>Title</th>
+                <th>Text</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in posts)
+            {
+                <tr>
+                    <td>@item.Author.Username</td>
+                    <td>@item.Title</td>
+                    <td>@item.Text</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+    @if (!string.IsNullOrEmpty(msg))
+    {
+        <label style="color: red">@msg</label>
+    }
+
+@code {
+    private IEnumerable<Post>? posts;
+    private string msg = "";
+
+    private async Task LoadPosts()
+    {
+        try
+        {
+            posts = await postService.GetAsync("gggggggggg", null, null, null);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+}}

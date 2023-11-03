@@ -1,0 +1,148 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "Username": "Marcell",
+      "Password": "Bella1",
+      "Email": "marci@gmail.com",
+      "Domain": "null",
+      "Name": "null",
+      "Role": "null",
+      "Age": 24,
+      "SecurityLevel": 3
+    },
+    {
+      "Id": 2,
+      "Username": "Virag",
+      "Password": "Bella2",
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 3,
+      "Username": "Ross",
+      "Password": "Ben1",
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 4,
+      "Username": "Marcello",
+      "Password": "Bella2",
+      "Email": "null",
+      "Domain": "null",
+      "Name": "null",
+      "Role": "null",
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 5,
+      "Username": "Joey",
+      "Password": "Women",
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 6,
+      "Username": "Monica",
+      "Password": "Clean3",
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 7,
+      "Username": "Chandler",
+      "Password": "Jokes",
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 8,
+      "Username": "dddddddd",
+      "Password": "1234",
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 9,
+      "Username": "Darja",
+      "Password": "1234",
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 10,
+      "Username": "Darja",
+      "Password": "1234",
+      "Email": null,
+      "Domain": null,
+      "Name": null,
+      "Role": null,
+      "Age": 0,
+      "SecurityLevel": 0
+    }
+  ],
+  "Posts": [
+    {
+      "PostId": 1,
+      "Author": {
+        "Id": 1,
+        "Username": "Marcell",
+        "Password": "Bella1",
+        "Email": null,
+        "Domain": null,
+        "Name": null,
+        "Role": null,
+        "Age": 0,
+        "SecurityLevel": 0
+      },
+      "Title": "First Post",
+      "Text": null
+    },
+    {
+      "PostId": 2,
+      "Author": {
+        "Id": 1,
+        "Username": "Marcell",
+        "Password": "Bella1",
+        "Email": null,
+        "Domain": null,
+        "Name": null,
+        "Role": null,
+        "Age": 0,
+        "SecurityLevel": 0
+      },
+      "Title": "Second Post",
+      "Text": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+// log in as Troels
+POST https://localhost:7173/auth/login
+Content-Type: application/json
+
+{ "Username" : "Marcell", "Password" : "Bella1" }
+
+###
+
+GET https://localhost:7173/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI4OGQzYjdkZi1jN2ZiLTQ4NWYtOTM3Yi00YmQzZWNmMTVkMjgiLCJpYXQiOiIyMDIzLiAwNC4gMDkuIDE1OjA0OjU4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6InRybW8iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJUZWFjaGVyIiwiRGlzcGxheU5hbWUiOiJUcm9lbHMgTW9ydGVuc2VuIiwiRW1haWwiOiJ0cm1vQHZpYS5kayIsIkFnZSI6IjM2IiwiRG9tYWluIjoidmlhIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJleHAiOjE2ODEwNTYyOTgsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.4wctFzP2I-45UTpPwDTBui8HoFVAiAT5--zxShIz40Y9rYHI0Tt-WiGEDGbu-SgRFSPdUHs7wUuEom1CvqNNCg
+
+###
+
+GET https://localhost:7173/test/allowanon
